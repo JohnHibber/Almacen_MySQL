@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Canciones Favoritas</title>
+    <link href="estilo.css" rel="stylesheet">
+  </head>
+  <body>
+    
+    
+    <center><h1>Canciones Favoritas</h1><!--titulo del formulario-->
+    <form action="guardar.php" method="post">
+
+    <div>
+    <br>
+    <label for="nombre">Nombre</label><!--insertar nombre de la cancion -->
+    <input type="text" name="nombre" required class="int"><br>
+    <br>
+    <label for="artista">Artista</label><!--insertar artista que interpreta la cancion -->
+    <input type="text" name="artista" required class="int"><br>
+    <br>
+    <label for="album">Album</label><!--insertar album donde esta la cancion -->
+    <input type="text" name="album" required class="int"><br>
+    <br>
+    <label for="lanzamiento">Año de lanzamiento</label><!--insertar el año en que se lanzo el album -->
+    <input type="text" name="lanzamiento" required class="int"><br>
+      <br>
+    <input type="submit" value="Agregar Cancion" class="boton"></center><!--envio de informacion a guardar.php-->
+    </div>
+  </body>
+
+</html>
